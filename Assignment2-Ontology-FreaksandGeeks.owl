@@ -1,0 +1,2155 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl#"
+     xml:base="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl">
+        <rdfs:comment xml:lang="en">An ontology to identify the main elements of the best television show ever aired: Freaks and Geeks (1999-2000).</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000159 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000159">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000165 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000165">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000138"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000166 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000166">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000167 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000167">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:comment xml:lang="en">Characters who have a non-romantic close relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isFriendsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000168 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000168">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000170 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000170">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:comment xml:lang="en">Characters who have a non-romantic close relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isFriendsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000171 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000171">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+        <rdfs:comment xml:lang="en">Characters who have a non-romantic close relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isFriendsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000173 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000173">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140"/>
+        <rdfs:comment xml:lang="en">Characters who have a non-romantic close relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isFriendsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000174 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000174">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140"/>
+        <rdfs:comment xml:lang="en">Characters who have a non-romantic close relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isFriendsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000175 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000175">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+        <rdfs:comment xml:lang="en">Characters who have a non-romantic close relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isFriendsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000176 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000176">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000177 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000177">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000138"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000178 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000178">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000179 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000179">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:comment xml:lang="en">Two characters who were or are in a romantic relationship.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasDated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000197 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000197">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000096"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000183"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000198 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000198">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000183"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000096"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000199 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000199">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000096"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000181"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000200 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000200">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000181"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000096"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000201 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000201">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000193"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">This element of the television series won this award.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasWonBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000202 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000202">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000193"/>
+        <rdfs:comment xml:lang="en">This award&apos;s winner was an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasWon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000203 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000203">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000184"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000131"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000204 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000204">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000131"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000184"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000205 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000205">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000115"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000185"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000206 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000206">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000069"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000115"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000207 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000207">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000116"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000186"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000208 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000208">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000186"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000116"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000209 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000209">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000080"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000188"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000210 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000210">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000188"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000080"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000211 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000211">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000084"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000194"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000212 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000212">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000194"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000084"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000213 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000213">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000081"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000195"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000214 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000214">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000195"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000081"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000215 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000215">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000191"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000216 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000216">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000191"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000217 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000217">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000190"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000218 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000218">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000190"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000219 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000219">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000189"/>
+        <rdfs:comment xml:lang="en">This element of the television series was included in this award&apos;s list of nominees.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasNominatedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000220 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000220">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000189"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">This award&apos;s list of nominees included an element of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hadNominee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000221 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000221">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000148"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000076"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000222 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000222">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000142"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000077"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000223 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000223">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000147"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000078"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000224 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000224">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000079"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000225 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000225">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000080"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000226 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000226">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000081"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000227 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000227">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000141"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000082"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000228 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000228">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000083"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000229 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000229">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000146"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000084"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000230 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000230">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000151"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000085"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000231 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000231">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000086"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000232 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000232">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000087"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000233 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000233">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000143"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000088"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000234 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000234">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000138"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000089"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000235 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000235">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000090"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000236 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000236">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000091"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000237 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000237">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000150"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000092"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000238 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000238">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000093"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000239 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000239">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000145"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000094"/>
+        <rdfs:comment xml:lang="en">Identifying the actor who played a specific character.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000244 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000244">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000120"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000121"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000122"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000123"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000153"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000245 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000245">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000130"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000131"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000156"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000246 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000246">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000126"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000131"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000154"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000247 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000247">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000125"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000146"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000155"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000248 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000248">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000128"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000145"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000157"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000249 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000249">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000126"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000129"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000250"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc. This particular relationship contains only a single character as I did not include Neal&apos;s father in the ontology - although the situation plays heavily in the show, I do not believe that the character does.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000252 -->
+
+    <owl:ObjectProperty rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000252">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000127"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+        <rdfs:domain rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000151"/>
+        <rdfs:range rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000251"/>
+        <rdfs:comment xml:lang="en">The episode(s) and characters involved in a specific story arc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">wasIncludedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037">
+        <rdfs:comment xml:lang="en">A group of students at William McKinley High School, Michigan navigate the social strata, angst and confusion of a 1980s teenage life. The struggle to ‘fit in’ is one that everyone who experienced the awkward teen years can relate to and Freaks and Geeks provides an authentic, funny and genuine portrayal of the highs and lows of those wonderful, yet awful, years. Despite being critically acclaimed, NBC cancelled Freaks and Geeks after just one season and 18 episodes.  it has become a cult classic and continuous to garner an ever-expanding fanbase.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Freaks and Geeks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">Industry awards wins and nominations related to the television series and its cast and/or crew.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AwardsandNominations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">A single-story line that is focussed on a character or two that is of particular importance to the growth of that character(s) and gives a deeper meaning to the characters and the series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StoryArcs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">The individual episodes/shows that make up the full television series. In this case, there are a total of 18.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Episodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000058 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000058">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">The television network that broadcasted Freaks and Geeks television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TelevisionNetwork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000059 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000059">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">The one person who has a writing credit on all 18 episodes of the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MainWriter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">The real life people who played specific characters in the television series.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Actors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">While not every episode, I personally find the characters listed within this entity to be important to specific story arcs or individual episodes and thus they impact the television series as a whole.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FrequentlyRecurringCharacters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">Lindsay and Sam Weir (siblings) are the focal characters and the plot lines typically revolve around their lives. However, the connections and contacts of the other main characters listed within this entity with Lindsay and Sam are meaningful and frequent and their impact on the show as a series is significant.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MainCharacters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000063 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000063">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">Categories of styles of writing that allows a viewer to identify the classification to which a television shows belongs (such as comedy, drama, action, horror, etc.), which assists the viewer in determining if s/he wants to watch that show based on what type of entertainment s/he wants to see.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Genre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000064 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000064">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment>&quot;The California On Location Awards honors the best Location Professionals in entertainment.&quot; (para. 1, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">California On Location Awards (COLA): http://www.californiaonlocationawards.com/home.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CaliforniaOnLocationAwards(COLA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000065 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000065">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000064"/>
+        <rdfs:comment xml:lang="en">&quot;Winner: Location Professional of the Year – Television (2001) for Deborah Laub&quot; (para. 5, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">LocationProfessionaloftheYear(2001)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000066 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000066">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;CDGA...celebrat(es) excellence in film, television, and short-form Costume Design.&quot; (para. 2, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Costume Designers Guild Awards (CDGA): http://costumedesignersguild.com/awards-2018</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CostumeDesignersGuildAwards(CDGA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000067 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000067">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">“The Emmy Awards salute excellence in national primetime programming, presenting top honors annually at both the Creative Arts Emmy Awards and Engineering Emmy Awards ceremonies, as well as the Emmy Awards telecast.” (para. 5, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Television Academy: https://www.emmys.com/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EmmyAwards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000068 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000068">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;The GLAAD Media Awards recognize and honor media for their fair, accurate and inclusive representations of the lesbian, gay, bisexual, transgender and queer community and the issues that affect their lives.&quot; (para. 1, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">GLAAD Media Awards: https://www.glaad.org/mediaawards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GLAADMediaAwards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000069 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000069">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;With the glamour and style of a Hollywood movie premiere, the MUAHS Guild Awards attracts celebrity talent, filmmakers, producers, other make-up and hair industry professionals and Guild members...The Make-Up Artists &amp; Hair Stylists Guild (IATSE Local 706) is the official labor union for make-up artists and hair stylists in Film, television, stage, commercials, digital media and Disneyland Theme Park. These artistic professionals have created the iconic looks for Hollywood’s most memorable characters and stars, and have influenced major trends in the consumer industry.&quot; (para. 1 and 2, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Hollywood Makeup Artists and Hair Stylist Guild Awards: https://www.muahsawards.com/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">HollywoodMakeupArtistandHairStylistGuildAwards(MUAHS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000070 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000070">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;Each year the MPSE presents &apos;The Golden Reel Awards,&apos; in which we acknowledge the year&apos;s best work in the various areas of sound editing: Dialogue, ADR, Effects, Foley and Music.&quot; (para. 3, 2015)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Motion Picture Sound Editors (MPSE): http://www.mpse.org</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MotionPictureSoundEditors(MPSE)USAGoldenReelAward</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000071 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000071">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;NCLR ALMA Awards stands out as the only awards show on English language television to honor the contributions of outstanding Latino artists and entertainers in television, film and music—mixing entertainment with a celebration of exceptional achievement, while underscoring the need to change popular perceptions of Hispanic Americans in media.&quot; (para. 2, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The NCLR ALMA Awards: http://www.almaawards.com/about-us</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NationalCouncilofLaRazaAmericanLatinoMediaArts(NCLRALMA)Awards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000072 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000072">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;We recognize the best in motion pictures and television.&quot; (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Online Film &amp; Television Association: http://www.oftaawards.com</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OnlineFilm&amp;TelevisionAssociation(OFTA)Award</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000073 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000073">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;Since 1984, the members of the TCA have voted for outstanding achievements in television. As professional consumers of the medium, TV critics are often the first to spot exemplary work in television. Time and again their choices have anticipated later honors from the Emmy and Peabody award panels. In 2002 the TCA began honoring the iconic figures in TV with its Heritage Award. The TCA Awards are held during the July press tour.&quot; (para. 1, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Television Critics Association (TCA): http://tvcritics.org/tca-awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TelevisionCriticsAssociation(TCA)Awards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000074 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000074">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;Established in 1978, the Young Artist Awards (YAA) is Hollywood&apos;s longest running awards show that recognizes and honors young talent. Through year-round support, participants are primed for greater achievements in their craft.&quot; (para. 1, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Young Artist Awards: https://www.youngartistawards.org/about</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">YoungArtistAwards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000075 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000075">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000055"/>
+        <rdfs:comment xml:lang="en">&quot;Presented by The Hollywood Reporter, it honored young American actors and actresses from ages 6–18 in their work in film, television, stage and music. Winners were chosen via a poll of 3,500 entertainment industry insiders who read The Hollywood Reporter. The awards ceremony was held from 1995 until 2000; there was no ceremony in 1996.&quot; (para. 1, 2017)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Wikipedia: https://en.wikipedia.org/wiki/YoungStar_Award</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">YoungStarAward</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000076 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000076">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Dave Allen was born in 1958 in Naperville, Illinois, USA. He is an actor and writer, known for Bad Teacher (2011), Crossroads (2002) and The Naked Trucker and T-Bones Show (2007).&quot; (para. 4, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0020405/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Allen,Dave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000077 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000077">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Becky Ann Baker was born on February 17, 1953 in Fort Knox, Kentucky, USA as Becky Ann Gelke. She is an actress, known for Men in Black (1997), A Simple Plan (1998) and Spider-Man 3 (2007). She has been married to Dylan Baker since 1990. They have one child.&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0048250/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Baker,BeckyAnn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000078 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000078">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Steve Bannos was born on August 5, 1960 in Chicago, Illinois, USA. He is an actor and writer, known for Freaks and Geeks (1999), Love (2016) and Ned&apos;s Declassified School Survival Guide (2004).&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0052446/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bannos,Steve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000079 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000079">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Jessica Campbell was born on October 30, 1982 in Tulsa, Oklahoma, USA. She is known for her work on Election (1999), In the Best Interest of the Children (1992) and The Safety of Objects (2001). She has been married to Daniel Papkin since August 1, 2009.&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0004795/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Campbell,Jessica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000080 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000080">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">Linda Edna Cardellini was born on June 25, 1975 in Redwood City, California but grew up in the San Francisco Bay area, California. She Linda has a Bachelor of Arts degree in Theatre from Loyola Marymount University, and completed a summer study program at the National Theatre in London. She is known for her work in Freaks and Geeks (1999) for she which won an Emmy Award in the Category of &quot;Outstanding Casting for a Comedy Series&quot; (connect to awards), Legally Blonde (2001) and Brokeback Mountain (2005). She has a daughter named Lilah-Rose. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0004802/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cardellini,Linda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000081 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000081">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">John Francis Daley was born on July 20, 1985 in Wheeling, Illinois, USA.  He is known for his work on Freaks and Geeks (1999) and Bones (2005). Now enjoying a successful screenwriting career, with his writing partner, Jonathan Goldstein, such as the hit, Horrible Bosses (2011). As well as being an actor and screenwriter, John is also a musician, playing keyboard and singing lead vocals in his band, Dayplayer. He married Corinne Kingsbury and in 2017 they have a son, Basil. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0197855/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Daley,JohnFrancis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000082 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000082">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Joe Flaherty was born on June 21, 1941 in Pittsburgh, Pennsylvania, USA as Joseph O&apos;Flaherty. He is an actor and writer, known for Happy Gilmore (1996), Back to the Future Part II (1989) and SCTV Network (1981).&quot; (para. 4, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0280886/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Flaherty,Joe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000083 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000083">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">James Franco was born April 19, 1978 in Palo Alto, California. He may perhaps be one of the most academically accomplished actors (an &quot;extreme scholar&quot;) in Hollywood history: besides his BFA in English from UCLA, he has two MFA degrees - both in writing - from Columbia and Brooklyn College, and a third MFA, in film, from New York University. Known for his breakthrough starring role on Freaks and Geeks (1999), the TNT made-for-television movie, James Dean (2001), Spider-Man (2002) and The Disaster Artist (2017), directed by himself. He has his own production company - Rabbit Bandini Productions. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0290556/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Franco,James</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000084 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000084">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Sarah Hagan was born on May 24, 1984 in Austin, Texas, USA as Sarah Margaret Hagan. She is known for her work on Freaks and Geeks (1999), Buffy the Vampire Slayer (1997) and Jess + Moss (2011).&quot; (para. 4, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0353247/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Hagan,Sarah</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000085 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000085">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Chauncey Leopardi was born on June 14, 1981. He is an actor, known for The Sandlot (1993), Casper (1995) and Father of the Bride (1991).&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0503140/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Leopardi,Chauncey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000086 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000086">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">Samm Levine was born on March 12, 1982 in Chicago, Illinois, USA. He is known for Freaks and Geeks (1999), Undeclared (2001) and Inglourious Basterds (2009). (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0505949/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Levine,Samm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000087 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000087">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Natasha Melnick was born on April 10, 1984 in Los Angeles, California, USA. She is an actress, known for Orange County (2002), Freaks and Geeks (1999) and The Parent Trap (1998).&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0578184/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Melnick,Natasha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000088 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000088">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Jerry Messing was born on April 3, 1986 in Los Angeles County, California, USA as Jerome Edward Trager Messing. He is an actor, known for Freaks and Geeks (1999), Even Stevens (2000) and Addams Family Reunion (1998).&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0582202/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Messing,Jerry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000089 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000089">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">Busy Philipps was born Elizabeth Jean Philipps on June 25, 1979 in Illinois, US. Best known for Freaks and Geeks (1999), Dawson&apos;s Creek (1998) Cougar Town (2009). She has two daughters with her husband Marc Silverstein - Birdie Leigh Silverstein and Cricket Pearl Silverstein. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0005311/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Philipps,Busy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000090 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000090">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">Seth Rogen was born on April 15, 1982 in Vancouver, British Columbia.
+He is known for Freaks and Geeks (1999), The 40-Year-Old Virgin (2005), Knocked Up (2007) and Superbad (2007). A talented voice artist, Rogen is in the animated films Horton Hears a Who! (2008) and Kung Fu Panda (2008). Rogan is married Lauren Miller-Rogen in October 2011. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: https://www.imdb.com/name/nm0736622/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rogan,Seth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000091 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000091">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">Jason Segel was born on January 18, 1980 in Los Angeles, California, USA. Known for Freaks and Geeks (1999), How I Met Your Mother (2005), Forgetting Sarah Marshall (2008) which he wrote and starred in and The Muppets (2011), which he cowrote and starred in. Segel is also a musician and songwriter. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: https://www.imdb.com/name/nm0781981/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Segel,Jason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000092 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000092">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Stephen Lea Sheppard was born on January 26, 1983. He is an actor, known for The Royal Tenenbaums (2001), Freaks and Geeks (1999) and The Begun of Tigtone (2014).&quot; (para. 2, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: https://www.imdb.com/name/nm0791991/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Sheppard,StephenLea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000093 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000093">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">&quot;Martin Starr was born on July 30, 1982 in Santa Monica, California, USA. He is an actor and producer, known for Freaks and Geeks (1999), Party Down (2009) and Silicon Valley (2014).&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: https://www.imdb.com/name/nm0771414/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Starr,Martin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000094 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000094">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000060"/>
+        <rdfs:comment xml:lang="en">Thomas F. Wilson was born on in Philadelphia, Pennsylvania, USA. Wilson is known for the Back to the Future (1985) trilogy and Freaks and Geeks (1999). Wilson has enjoyed a successful career as an actor, writer and comedian for over 20 years. Wilson is married to Carline Wilson and has four children: Anna May, Emily, Gracie and Tommy. (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: https://www.imdb.com/name/nm0001855/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wilson,ThomasF.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000096 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000096">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000059"/>
+        <rdfs:comment xml:lang="en">&quot;Paul Feig was born on September 17, 1962 in Mount Clemens, Michigan, USA. He is an actor and producer, known for Freaks and Geeks (1999), The Heat (2013) and Spy (2015). He has been married to Laurie Karon since September 23, 1994.&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0082450/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Feig,Paul</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000115 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000115">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Studious &apos;mathlete&apos; Lindsay starts hanging out with a group of burnouts, worrying her parents. Lindsay&apos;s brother, Sam, struggles to confront a bully.&quot; (para 3, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">1.Pilotepisode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000116 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000116">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;With her parents out of town, Lindsay throws a party at the house to impress Daniel. Wary of alcohol, Sam&apos;s friends replace the keg with fake beer.&quot; (para 3, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">2.BeersandWeirs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000117 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000117">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Sam convinces Bill and Neal to trick-or-treat on Halloween, but they end up embarrassed while Lindsay and her friends wreak havoc in the neighborhood.&quot; (para 3, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">3.TricksandTreats</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000118 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000118">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Kim&apos;s friend, Karen, bullies Sam and calls him a geek. Kim invites Lindsay to dinner at her house, exposing Lindsay to the abuse Kim takes at home.&quot; (para. 3, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">4.KimKellyIsMyFriend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000119 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000119">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Lindsay offers to help Daniel study for an algebra test, but ends up accused by the teacher of cheating. Daniel lends sexually naive Sam a porn film.&quot; (para. 4, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">5.TestsandBreasts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000120 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000120">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Nick feels that focusing on his drumming is the only way to avoid going into the military. Insecure Sam refuses to shower after gym class.&quot; (para. 4, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">6.I’mWiththeBand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000121 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000121">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Lindsay and the freaks go to great lengths to get fake IDs to see a local band at a bar. The geeks befriend a pretty new transfer student.&quot; (para. 4, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">7.CardedandDiscarded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000122 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000122">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Nick starts to show an obsessive interest in Lindsay, which leaves her feeling creeped out. Sam is jealous that Bill and Cindy are science partners.&quot; (para. 4, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">8.GirlfriendsandBoyfriends</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000123 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000123">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Sam&apos;s plan to woo Cindy by becoming the school mascot goes awry. Lindsay wants to break up with Nick. The freaks battle students from a rival school.&quot; (para. 5, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">9.We’veGotSpirit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000124 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000124">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Tired of being harassed by Coach Fredricks, Bill lashes out with prank phone calls. Lindsay’s parents violate her trust by reading her diary.&quot; (para. 5, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">10.TheDiary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000125 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000125">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Lindsay rejoins the mathletes and reconnects with Millie after her folks ground her for crashing their car. Sam tries to dress well to impress Cindy.&quot; (para. 5, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">11.LooksandBooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000126 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000126">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Sam and Bill tell Neal they saw his father with a woman who isn&apos;t Neal&apos;s mom. Ken has a crush on a girl who plays tuba in the school marching band.&quot; (para. 5, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">12.TheGarageDoor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000127 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000127">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Lindsay smokes pot for the first time, forgetting that she’s scheduled to baby-sit a neighbor. Bill nearly dies when he accidentally eats peanuts.&quot; (para. 6, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">13.Chokin’andTokin’</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000128 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000128">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Lindsay and Kim accidentally run over Millie&apos;s dog. Nick writes a love ballad for Lindsay. Bill is horrified that Mr. Fredricks is dating his mom.&quot; (para. 6, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">14.DeadDogsandGymTeachers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000129 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000129">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Daniel changes his appearance in an attempt to impress a punk girl named Jenna. Neal is obsessed with ventriloquism at the expense of his studies.&quot; (para. 6, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">15.NoshingandMoshing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000130 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000130">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Sam asks Cindy to go to a party after she tells Bill that she has a crush on Sam. Nick stays with the Weirs following a confrontation with his father.&quot; (para. 6, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">16.SmoochingandMooching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000131 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000131">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;Ken questions his sexuality after his girlfriend reveals a secret. Sam becomes fed up with dating Cindy. George Bush visits McKinley for an assembly.&quot; (para. 7, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">17.TheLittleThings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000132 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000132">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000057"/>
+        <rdfs:comment xml:lang="en">&quot;The freaks find out that Nick is entering a disco competition with his new girlfriend. Lindsay faces a decision that could set her life on a new path.&quot; (para. 7, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NETFLIX: https://www.netflix.com/ca/title/70253797</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">18.DiscosandDragons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">Following her grandmother’s death, Lindsay (played by Linda Cardellini) begins the transition from geek (mathlete) to freak (like her crush, Daniel Desario). A high school junior who has grown tired of teenage pretenses, she begins to question the purpose of life and if being good truly matters. One of her first lines in the pilot episode: “Man, I hate high school” aptly sets the stage for the rest of the show.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Weir,Lindsay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">Lindsay’s geek younger brother, Sam (played by John Francis Daley) is a freshman in high school and the one who is humiliated (mainly by his nemesis Alan White) and picked on the most. His crew basically consists of his two best friends, Bill Haverchuck and Neal Schweiber, who are just as awkward as he is and dread gym class almost as much as he does. He crushes pretty hard on Cindy Saunders, but soon learns she’s not everything he had built her up to be.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Weir,Sam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">Part of the freaks, Nick (played by Jason Segel) is an aspiring rock and roll drummer whose favourite bands include Led Zeppelin and Rush. Honest to a fault, he wears his heart on his sleeve. He and Lindsay date briefly and although it doesn’t work out, he continues to carry a flame for her, which sometimes borders on obsession. Brought up by a strict, military father, Nick was once a promising athlete, until he fell into the freak crowd and started smoking pot.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Andopolis,Nick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">Part of the freaks, Daniel (played by James Franco) is the school bad boy (held back at least one grade) who Lindsay originally has a crush on and is the catalyst for her introduction to the freak group. He is the on and off (mostly on) boyfriend of Kim Kelly. While appearing tough and charming, he is also insecure in some respects. Although not book smart, Daniel seems to have a deep emotional intelligence.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Desario,Daniel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">A quintessential geek and easily the most physically awkward character, Bill (played by Martin Starr) is one of Sam Weir’s best friends and is a genuine fan of the TV show Dallas. He has a peanut allergy, in a time when peanut allergies were uncommon, unrecognized and peanuts weren’t banned from school, Bill suffers a life-threatening situation due to the actions of Alan White. His father left when he was young, and when his mom finds new love, Bill really struggles with the man that she selects.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Haverchuck,Bill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000138 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000138">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">Part of the freaks, Kim (played by Busy Philipps) is a hot-tempered, bully, but despite her tough upbringing, she has a heart of gold when it comes to those she cares about. She is the on and off (mostly on) girlfriend of Daniel Desario. Suspicious of Lindsay’s intentions, she is not welcoming at first, but she eventually warms up and a friendship begins to blossom.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Kelly,Kim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">Part of the freaks, Ken (played by Seth Rogan) is sarcastic and cynical and is the least featured main character, until the story arc where he starts dating Amy Edwards.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Miller,Ken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">A witty geek from a wealthy family, Neal (played by Samm Levine) one of Sam Weir’s best friends. It becomes evident that Neal has an unrequited love for Lindsay Weir. Although appearing to have an idyllic family life, Neal is crushed when he discovers is beloved father is having an affair. Despite his confidence and being the most secure with himself, following what he perceives to be a betrayal on his father’s part, he picks up ventriloquism to get attention.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Schweiber,Neal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000141 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000141">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">A bit of a curmudgeon, Harold (played by Joe Flaherty) is a sports apparel business owner and is the father of Lindsay and Sam Weir. While seemingly unengaged, he cares deeply for his whole family.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Weir,Harold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000142 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000142">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000062"/>
+        <rdfs:comment xml:lang="en">A homemaker struggling to adjust to her kids growing up, Jean (played by Becky Ann Baker) is the loving and attentive mother of Lindsay and Sam.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Weir,Jean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000143 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000143">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">A geek friend of Sam Weir’s, Gordon (played by Jerry Messing) is very insightful and comfortable with himself despite his weight and trimethylaminuria. While originally an outcast, he ingratiates himself into Sam’s circle of friends.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Crisp,Gordon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">Very dry witted and sarcastic, Amy (aka Tuba Girl and played by Jessica Campbell) is a member of the band who unwittingly catches the romantic attention of Ken Miller. One of the most intriguing and engaging episodes is the one when Amy tells Ken that she is a hermaphrodite.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Edwards,Amy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000145 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000145">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">A gym teacher at William McKinley High School, originally seemingly patronizing to the geeks, Coach Fredricks (played by Thomas F. Wilson) actually becomes an endearing character as he works to win over Bill Haverchuck when he begins dating his mother.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CoachFredericks,Ben</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000146 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000146">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">A geek and former best friend of Lindsay Weir, Milllie (played by Sarah Hagan) struggles to understand Lindsay’s change in character and where she now fits, while remaining true to the mathletes.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Kenter,Millie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000147 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000147">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">A tough teacher at William McKinley High School, Mr. Kowchevski (played by Steve Bannos) expects the worst of his students.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Kowchevski,Frank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000148 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000148">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">The genuinely caring, hippie guidance counsellor at William McKinley High School, Mr. Rosso (played by Dave Allen) tries desperately to relate to the students on a personal level.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rosso,Jeff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">A popular cheerleader and good girl, Cindy (played by Natasha Melnick) is Sam Weir’s crush. While she seems perfect, after finally getting the girl of this dreams, Sam discovers she’s not who he thought she was.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Sanders,Cindy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000150 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000150">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">A geek, yet a mystic savant of sorts, Harris (played by Stephen Lea Sheppard) is an old soul who provides sage advice to both the freaks and geeks.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Trinsky,Harry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000151 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000151">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000061"/>
+        <rdfs:comment xml:lang="en">Sam Weir’s arch nemesis, Alan (played by Chauncey Leopardi) is originally portrayed as a stereotypical 1980s bully, but the audience quickly learns that he yearns to belong to the group and is acting out because he feel as though they’ve cast him aside. He very nearly kills Bill Haverchuck when he &apos;tests&apos; Bill&apos;s peanut allergy.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">White,Alan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000152 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000152">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000058"/>
+        <rdfs:comment xml:lang="en">&quot;NBCUniversal owns and operates a valuable portfolio of news and entertainment television networks, a premier motion picture company, significant television production operations, a leading television stations group, world-renowned theme parks, and a suite of leading Internet-based businesses. NBCUniversal is a subsidiary of Comcast Corporation.&quot; (para. 2, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">NBCUniversal: http://www.nbcuniversal.com/who-we-are</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NationalBroadcastingCompany(NBC)(knownasNBCUniversalcirca2004)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000153 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000153">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">Lindsay hesitantly enters into a relationship with Nick after kissing him to try and make him feel better after a disastrous band audition she sent him to. While well-meaning, she gives him a new sense of purpose and motivation that momentarily drives a steak between him and his friends. Lindsay wants to end the relationship not long after it begins due to his intensity and burnout ways, but becomes frightened to do so after hearing about what happened when his last girlfriend broke up with him. She speaks to her mom about the situation, but in the end decides not to break up with him, unfortunately her mom mistakenly assumes that she had broken up with Nick and following a discussion between Nick and Lindsay&apos;s mom, Nick ends it with Lindsay. However, Nick continues to carry a torch for her, which leads to some uncomfortable situations.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NickandLindsay’sRelationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000154 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000154">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">Ken finally meets someone, Amy (Tuba Girl), he connects with on a romantic level. However, when Amy tells Ken a very personal secret, that she is a hermaphrodite, he struggles to come to terms with his feelings. It shows the audience a side of Ken that is surprisingly warm insightful.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">KenandAmy’sRelationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000155 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000155">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">Following crashing the family car and becoming disillusioned with the freaks, Lindsay makes a return to the geeks. She enthusiastically rejoins the mathletes and her former group of friends. During a sleepover with her former group and former best friend Millie, Lindsay realizes that she has changed too much to return to her previous life.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Lindsay’sReturntoTheGeeks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000156 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000156">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">After pining over Cindy and awkward attempts at flirtation, Sam finally gets his chance after her popular boyfriend breaks up with her. Once the shine comes off the excitement of finally becoming her boyfriend, Sam realizes she is high maintenance and that perhaps they are not a good match. He gives her a heartfelt and personal gift of a necklace and discovers that she does not care for it. He finally breaks up with her after realizing just how miserable she makes him.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SamandCindy’sRelationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000157 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000157">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">Much to Bill’s chagrin, his mother begins to date Coach Fredericks, his high school gym teacher. Coach Frederick’s does his best to bond with Bill and his friends Neil and Sam, but he has to fight hard to finally win Bill over.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bill’sMomDatesCoachFredericks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000158 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000158">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000063"/>
+        <rdfs:comment xml:lang="en">Also known as a dramedy, this is a genre that combines elements of both a comedy and a drama. It can change from episode to episode or even be combined in a single episode or scene. Freaks and Geeks falls under this genre.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Comedy/Drama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000180 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000180">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000066"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding Period/Fantasy Television Series (2001) for Debra McGuide&quot; (para. 6, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingPeriod/FantasyTelevisionSeries(2001)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000181 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000181">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000067"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding Writing for a Comedy Series (2001) for Paul Feig&quot; (para. 1 n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Television Academy: https://www.emmys.com/shows/freaks-and-geeks</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingWritingforaComedySeries(2001)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000182 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000182">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000067"/>
+        <rdfs:comment xml:lang="en">&quot;Winner: Outstanding Casting for a Comedy Series (2000) for Alison Jones, Coreen Mayrs and Jill Greenberg Sands&quot; (para 2, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Television Academy: https://www.emmys.com/shows/freaks-and-geeks</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingCastingforaComedySeries(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000183 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000183">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000067"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding Writing for a Comedy Series (2000) for Paul Feig&quot; (para. 3, n.d.)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Television Academy: https://www.emmys.com/shows/freaks-and-geeks</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingWritingforaComedySeries(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000184 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000184">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000068"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding TV Individual Episode (In a Series Without a Regular Gay Character) (2001) for episode &apos;The Little Things&apos;&quot; (para. 7, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingTVIndividualEpisode(InaSeriesWithoutaRegularGayCharacter)(2001)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000185 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000185">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000069"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Best Period Makeup – Television (for a Single Episode of a Regular Series – Sitcom, Drama or Daytime (2000) for Lisa Layman, David Syner and Joseph Regina for the pilot episode&quot; (para. 8, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestPeriodMakeup–Television(foraSingleEpisodeofaRegularSeries–Sitcom,DramaorDaytime(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000186 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000186">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000070"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Best Sound Editing – Television Episodic – Music (2000) for Jonathan Karp (music editor) for episode &apos;Beers and Weirs&apos;&quot; (para. 9, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestSoundEditing–TelevisionEpisodic–Music(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000187 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000187">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000071"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding Director of a Comedy Series (2001) for Miguel Arteta&quot; (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingDirectorofaComedySeries(2001)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000188 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000188">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000072"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Best Actress in a New Comedy Series (2000) for Linda Cardellini&quot; (para. 10, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestActressinaNewComedySeries(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000189 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000189">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000073"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding New Program of the Year (2000)&quot; (para. 12, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingNewProgramoftheYear(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000190 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000190">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000073"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Outstanding Achievement in Drama (2000)&quot; (para. 12, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OutstandingAchievementinDrama(2000)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000191 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000191">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000073"/>
+        <rdfs:comment xml:lang="en">&quot;Nominee: Heritage Award (2011)&quot; (para. 11, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/title/tt0193676/awards</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">HeritageAward(2011)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000192 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000192">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000074"/>
+        <rdfs:comment xml:lang="en">Nominee: Best Performance in a TV Series – Young Ensemble (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Wikipedia: https://en.wikipedia.org/wiki/Freaks_and_Geeks#Awards_and_nominations</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestPerformanceinaTVSeries–YoungEnsemble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000193 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000193">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000074"/>
+        <rdfs:comment xml:lang="en">Winner: Best Family TV Series – Comedy (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Wikipedia: https://en.wikipedia.org/wiki/Freaks_and_Geeks#Awards_and_nominations</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestFamilyTVSeries–Comedy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000194 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000194">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000075"/>
+        <rdfs:comment xml:lang="en">Nominee: Best Young Actor/Performance in a Comedy TV Series for John Francis Daley (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Wikipedia: https://en.wikipedia.org/wiki/Freaks_and_Geeks#Awards_and_nominations</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestYoungActor/PerformanceinaComedyTVSeries</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000195 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000195">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000075"/>
+        <rdfs:comment xml:lang="en">Nominee: Best Young Actor/Performance in a Comedy TV Series for Sarah Hagan (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Wikipedia: https://en.wikipedia.org/wiki/Freaks_and_Geeks#Awards_and_nominations</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestYoungActor/PerformanceinaComedyTVSeries</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000196 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000196">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000075"/>
+        <rdfs:comment xml:lang="en">Nominee: Best Young Ensemble Cast – Television for the cast (2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Wikipedia: https://en.wikipedia.org/wiki/Freaks_and_Geeks#Awards_and_nominations</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BestYoungEnsembleCast–Television</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000242 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000242">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000037"/>
+        <rdfs:comment xml:lang="en">&quot;The role of the Executive Producer is to oversee the work of the producer on behalf of the studio, the financiers or the distributors. They will ensure the film is completed on time, within budget, and to agreed artistic and technical standards.&quot; (para. 1, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">mediamatch: http://www.media-match.com/usa/media/jobtypes/executive-producer-jobs-405700.php</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ExecutiveProducer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000243 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000243">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000242"/>
+        <rdfs:comment xml:lang="en">“Judd Apatow was born on December 6, 1967 in Syosset, New York, USA. He is a producer and writer, known for Girls (2012), The 40-Year-Old Virgin (2005) and Knocked Up (2007). He has been married to Leslie Mann since June 9, 1997. They have two children.” (para. 3, 2018)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">IMDb: http://www.imdb.com/name/nm0031976/bio?ref_=nm_ov_bio_sm</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Apatow,Judd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000250 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000250">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">After finding a mysterious garage door opener in his father’s car and forcing his friends to bike around until they find the garage to which the opener belongs, Neal is devastated to discover that his father is having an affair. This puts an incredible strain on a once healthy and close father-son relationship. Not knowing how to properly deal with his feelings, Neal turns to ventriloquism as he struggles to understand what has happened and determine whether or not to tell his mother.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Neal&apos;sFatherhasanAffair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000251 -->
+
+    <owl:Class rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000251">
+        <rdfs:subClassOf rdf:resource="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000056"/>
+        <rdfs:comment xml:lang="en">Alan doesn’t believe that Bill has a peanut allergy and sneaks one into his sandwich. Bill goes in to anaphylactic shock and is hospitalized and is in a coma. Alan admits what he did, and his father takes him to the hospital to apologize. Alan believes that Bill is unconscious when he admits that he picks on Bill and friends because he feels left out by them. Alan tries to play it off when Bill ‘wakes up’ but Bill makes it clear that he heard everything. They invite Alan to join them at a sci-fi event, but as he arrives to meet them, he turns around and leaves.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Lisa Nardecchia</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BillAlmostDies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000076"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000077"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000078"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000079"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000080"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000081"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000082"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000083"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000084"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000085"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000086"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000087"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000088"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000089"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000090"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000091"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000092"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000093"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000094"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000133"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000134"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000135"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000136"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000137"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000138"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000139"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000140"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000141"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000142"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000143"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000144"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000145"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000146"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000147"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000148"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000149"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000150"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000151"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000153"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000154"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000155"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000156"/>
+            <rdf:Description rdf:about="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl/FREAKSANDGEEKS0000157"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
