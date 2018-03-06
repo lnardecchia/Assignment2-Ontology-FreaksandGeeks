@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1520190987065" name="http://www.freaksandgeeks/ontologies/freaksandgeeks.owl" uri="Assignment2-Ontology-FreaksandGeeks.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1520190987065" name="shadowed:http://www.freaksandgeeks/ontologies/freaksandgeeks.owl" uri="Freaks%20and%20Geeks%20Ontology/FreaksandGeeksOnt.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1520298311117" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1520298311117" name="duplicate:http://www.freaksandgeeks/ontologies/freaksandgeeks.owl" uri="Final-Assignment2-Ontology-FreaksandGeeks.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1520298311117" name="duplicate:http://www.freaksandgeeks/ontologies/freaksandgeeks.owl" uri="Reasoner-Assignment2-Ontology-FreaksandGeeks.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1520298311117" name="shadowed:http://www.freaksandgeeks/ontologies/freaksandgeeks.owl" uri="Freaks%20and%20Geeks%20Ontology/FreaksandGeeksOnt.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1520298311117" name="shadowed:http://www.freaksandgeeks/ontologies/freaksandgeeks.owl" uri="Assignment2-Ontology-FreaksandGeeks/Assignment2-Ontology-FreaksandGeeks.owl"/>
     </group>
 </catalog>
